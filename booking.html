@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="description" name="description">
+  <meta name="google" content="notranslate" />
+  <meta content="Mashup templates have been developped by Orson.io team" name="author">
+
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png">
+  <link href="./assets/favicon.ico" rel="icon">
+
+  <title>Title page</title>
+
+<link href="style.css" rel="stylesheet"></head>
+
+<body class="">
+<div id="site-border-left"></div>
+<div id="site-border-right"></div>
+<div id="site-border-top"></div>
+<div id="site-border-bottom"></div>
+ <!-- Add your content of header -->
+<header>
+  <nav class="navbar  navbar-fixed-top navbar-default">
+    <div class="container">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav ">
+          <li><a href="./index.html" title="">01 : Home</a></li>
+          <li><a href="./angebot.html" title="">02 : Unser Angebot</a></li>
+          <li><a href="./about.html" title="">03 : Über uns</a></li>
+          <li><a href="./locations.html" title="">04 : Standorte</a></li>
+          <li><a href="./booking.html" title="">05 : Buchen</a></li>
+          <li><a href="./contact.html" title="">06 : Kontakt</a></li>
+        </ul>
+
+
+      </div>
+    </div>
+  </nav>
+</header>
+
+
+
+
+
+
+<div class="section-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="section-container-spacer text-center">
+            <h2 class="h2">05 : Buche uns</h2>
+          </div>
+          <div class="wrapper">
+            <form class="booking_formular">
+              <div id="success" class="alert alert-success" role="alert">Wir haben deine Anfrage erfolgreich erhalten</div>
+              <div id="name_danger" class="alert alert-danger" role="alert">Feld Name darf nicht leer sein</div>
+              <div id="mail_danger" class="alert alert-danger" role="alert">Feld Email darf nicht leer sein</div>
+              <div id="ort_danger" class="alert alert-danger" role="alert">Feld Ort darf nicht leer sein</div>
+              <div id="date_danger" class="alert alert-danger" role="alert">Feld Datum darf nicht leer sein</div>
+              <div id="human_danger" class="alert alert-danger" role="alert">Bitte bestätige dass du ein Mensch bist</div>
+              <input id="name" type="text" class="form-control" placeholder="Name" required/>
+              <label class="desc" id="title1">Name</label>
+              <input id="email" type="email" class="form-control" placeholder="Email" required/>
+              <label class="desc" id="title2">Email</label>
+              <input type="number" id="adults" class="form-control" name="adults" min="10" max="50" step="1" value="10">
+              <label class="desc" id="title3">Personen</label>
+              <input id="ort" type="text" class="form-control" placeholder="Ort" required/>
+              <label class="desc" id="title5">Ort</label>
+              <input id="date" type="date" id="arrival" class="form-control" value="01/01/2021" required/>
+              <label class="desc" id="title4">Datum</label>
+              <br>
+              <label class="checkbox-inline">
+                <input id="human" type="checkbox" id="inlineCheckbox2" value="option2" required> I am a human
+              </label>
+              <br>
+              <br>
+                <p onclick="anfragen()" href="" class="btn btn-default" id="anfragen" style=>Anfragen</p>
+
+            </form>
+          </div>
+
+          </div>
+
+       </div>
+      </div>
+    </div>
+  </div>
+
+
+<footer class="footer-container text-center">
+  <div class="container">
+    <div class="row">
+      <div class="footer-menu">
+        <ul class="footer-nav">
+          <li><a href="./impressum.html" title="">07 : Impressum</a><a id="dummy"> |</a></li>
+          <li><a href="./datenschutz.html" title="">08 : Datenschutz</a></li>
+        </ul>
+
+
+      </div>
+      <div class="col-xs-12">
+        <p>© The Worschttruck</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function (event) {
+     navActivePage();
+  });
+</script>
+<script type="text/javascript" src="functions.js"></script></body>
+
+</html>
