@@ -6014,8 +6014,8 @@ img {
     margin-right: auto;
 }
 .about_table th, td {
-    /*padding-bottom: 5px;
-    padding-right: 5px;*/
+    padding-bottom: 10px;
+    padding-right: 10px;
 }
 
 
