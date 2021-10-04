@@ -6109,3 +6109,9 @@ form .text-field:focus {
 .footer-menu {
     margin-top: -40px;
 }
+
+#booking_text {
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+}
