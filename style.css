@@ -6118,8 +6118,25 @@ form .text-field:focus {
 
 /* menu */
 
+.angebot_btns {
+    padding: 0;
+    margin: 0 auto;
+}
+
+.angebot_btns {
+    float: right;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
 .angebot_btns li {
-    display: inline;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin: 0 8px;
+    zoom: 1;
+    *display: inline;
 }
 
 .menu {
@@ -6127,6 +6144,7 @@ form .text-field:focus {
     margin-left: auto;
     position:relative;
     width:90%;
+    z-index: -1;
 }
 .title {
     position:relative;
@@ -6164,29 +6182,16 @@ article p {
     padding:0 10px 10px;
 }
 
-
-
-
-
-
-
-/**
- * Layout
- */
-
-.section {
-    color: #ffffff;
-    height: 75vh;
-    margin: 0;
-}
-
-/**
- * Sticky navigation
- */
+/* Sticky */
 .sticky {
     height: 50px;
     background-color: white;
     position: -webkit-sticky;
     position: sticky;
     top: 90px;
+}
+
+/* back to top button */
+.btn_top {
+    text-align: center;
 }
