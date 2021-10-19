@@ -5758,8 +5758,8 @@ img {
 }
 
 .card_ab {
-    height: 265px;
-    width: 235px;
+    height: 280px;
+    width: 220px;
     background: #808080;
     border-radius: 0px;
     transition: background 0.8s;
@@ -5769,26 +5769,26 @@ img {
 }
 
 .card0 {
-    background: url("https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg") center center no-repeat;
-    background-size: 300px;
+    background: url("assets/images/portraits/jh.png") center center no-repeat;
+    background-size: 220px;
 }
 
 .card0 h2 {
     visibility: hidden;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .card0 p {
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     margin-left: 30px;
     margin-top: -20px;
     visibility: hidden;
 }
 
 .card0:hover {
-    background: url("https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg") left center no-repeat;
-    background-size: 600px;
+    background: url("assets/images/portraits/jh.png") left center no-repeat;
+    background-size: 500px;
 }
 
 .card0:hover h2 {
@@ -5806,26 +5806,26 @@ img {
 }
 
 .card1 {
-    background: url("https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg") center center no-repeat;
-    background-size: 300px;
+    background: url("assets/images/portraits/js.png") center center no-repeat;
+    background-size: 220px;
 }
 
 .card1 h2 {
     visibility: hidden;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .card1 p {
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     margin-left: 30px;
     margin-top: -20px;
     visibility: hidden;
 }
 
 .card1:hover {
-    background: url("https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg") left center no-repeat;
-    background-size: 600px;
+    background: url("assets/images/portraits/js.png") left center no-repeat;
+    background-size: 500px;
 }
 
 .card1:hover h2 {
@@ -5843,26 +5843,26 @@ img {
 }
 
 .card2 {
-    background: url("https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg") center center no-repeat;
-    background-size: 300px;
+    background: url("assets/images/portraits/mf.png") center center no-repeat;
+    background-size: 220px;
 }
 
 .card2 h2 {
     visibility: hidden;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .card2 p {
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     margin-left: 30px;
     margin-top: -20px;
     visibility: hidden;
 }
 
 .card2:hover {
-    background: url("https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg") left center no-repeat;
-    background-size: 600px;
+    background: url("assets/images/portraits/mf.png") left center no-repeat;
+    background-size: 500px;
 }
 
 .card2:hover h2 {
@@ -5880,26 +5880,26 @@ img {
 }
 
 .card3 {
-    background: url("https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg") center center no-repeat;
-    background-size: 300px;
+    background: url("assets/images/portraits/ms.png") center center no-repeat;
+    background-size: 220px;
 }
 
 .card3 h2 {
     visibility: hidden;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .card3 p {
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     margin-left: 30px;
     margin-top: -20px;
     visibility: hidden;
 }
 
 .card3:hover {
-    background: url("https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg") left center no-repeat;
-    background-size: 600px;
+    background: url("assets/images/portraits/ms.png") left center no-repeat;
+    background-size: 500px;
 }
 
 .card3:hover h2 {
@@ -5917,26 +5917,26 @@ img {
 }
 
 .card4 {
-    background: url("https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg") center center no-repeat;
-    background-size: 300px;
+    background: url("assets/images/portraits/pw.png") center center no-repeat;
+    background-size: 220px;
 }
 
 .card4 h2 {
     visibility: hidden;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .card4 p {
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     margin-left: 30px;
     margin-top: -20px;
     visibility: hidden;
 }
 
 .card4:hover {
-    background: url("https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg") left center no-repeat;
-    background-size: 600px;
+    background: url("assets/images/portraits/pw.png") left center no-repeat;
+    background-size: 500px;
 }
 
 .card4:hover h2 {
@@ -5954,26 +5954,26 @@ img {
 }
 
 .card5 {
-    background: url("https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg") center center no-repeat;
-    background-size: 300px;
+    background: url("assets/images/portraits/free.png") center center no-repeat;
+    background-size: 220px;
 }
 
 .card5 h2 {
     visibility: hidden;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .card5 p {
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     margin-left: 30px;
     margin-top: -20px;
     visibility: hidden;
 }
 
 .card5:hover {
-    background: url("https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg") left center no-repeat;
-    background-size: 600px;
+    background: url("assets/images/portraits/free.png") left center no-repeat;
+    background-size: 500px;
 }
 
 .card5:hover h2 {
