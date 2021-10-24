@@ -1,12 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:900|Roboto+Mono:300,400,700);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 
-/*!
- * Bootstrap v3.3.7 (http://getbootstrap.com)
- * Copyright 2011-2016 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
@@ -226,8 +220,6 @@ td, th {
     }
 
     h2, h3, p {
-        orphans: 3;
-        widows: 3
     }
 
     h2, h3 {
@@ -4856,11 +4848,11 @@ p {
 }
 
 .h2:before, h2:before {
-    left: 0
+    left: 1px;
 }
 
 .h2:after, h2:after {
-    right: 0
+    right: 1px;
 }
 
 @media (min-width: 992px) {
@@ -5354,7 +5346,7 @@ textarea {
 }
 
 .card .additional .more-info {
-    width: 350px;
+    width: 380px;
     float: left;
     position: absolute;
     left: 60px;
@@ -6106,12 +6098,15 @@ form .text-field:focus {
     margin-top: -40px;
 }
 
-#booking_text {
+.site_text {
     margin-left: auto;
     margin-right: auto;
-    width: 65%;
+    width: 50%;
 }
 
+#locations_text {
+    width: 75%;
+}
 /* menu */
 
 .angebot_btns {
