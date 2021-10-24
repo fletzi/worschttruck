@@ -6191,3 +6191,13 @@ article p {
 .btn_top {
     text-align: center;
 }
+
+/* footer menü auf der startseite schwarz hinterlegt */
+#footer_main {
+    background-color: black;
+    color: white;
+}
+
+#body_main {
+    background-color: black;
+}

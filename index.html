@@ -20,7 +20,7 @@
 
 <link href="style.css" rel="stylesheet"></head>
 
-<body class="minimal">
+<body class="minimal" id="body_main">
 <div id="site-border-left"></div>
 <div id="site-border-right"></div>
 <div id="site-border-top"></div>
@@ -52,7 +52,7 @@
   </nav>
 </header>
 <!-- Add your site or app content here -->
-  <div class="hero-full-container background-image-container white-text-container" id="truckpic" style="background-image: url('assets/images/main/truck.png')">
+  <div class="hero-full-container background-image-container white-text-container" id="truckpic" style="background-color: black; background-image: url('assets/images/main/truck.png')">
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
@@ -72,6 +72,24 @@
       </div>
     </div>
   </div>
+
+<footer class="footer-container text-center" id="footer_main">
+  <div class="container">
+    <div class="row">
+      <div class="footer-menu">
+        <ul class="footer-nav">
+          <li><a href="./impressum.html" title="" style="color: white">07 : Impressum</a><a id="dummy" style="color: white"> |</a></li>
+          <li><a href="./datenschutz.html" title="" style="color: white">08 : Datenschutz </a></li>
+        </ul>
+
+
+      </div>
+      <div class="col-xs-12">
+        <p>© The Worschttruck</p>
+      </div>
+    </div>
+  </div>
+</footer>
 
 <script>
   document.addEventListener("DOMContentLoaded", function (event) {
