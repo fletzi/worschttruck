@@ -170,11 +170,12 @@ optgroup {
 
 table {
     border-collapse: collapse;
-    border-spacing: 0
+    border-spacing: 0;
 }
 
 td, th {
-    padding: 0
+    text-align: left;
+    width: 50%
 }
 
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
@@ -6005,11 +6006,7 @@ img {
 .about_table th, td {
     padding-bottom: 10px;
     padding-right: 10px;
-}
-
-
-table {
-    table-layout: auto;
+    width: auto;
 }
 
 /* Profile Cards */
