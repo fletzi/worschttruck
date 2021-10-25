@@ -5092,6 +5092,7 @@ textarea {
     }
 }
 
+/* Akzentfarbe */
 @media (min-width: 768px) {
     .navbar-default .navbar-nav > li > a {
         border-right: 1px solid #000
@@ -6179,7 +6180,7 @@ article p {
     background-color: white;
     position: -webkit-sticky;
     position: sticky;
-    top: 90px;
+    top: 99px;
 }
 
 /* back to top button */
