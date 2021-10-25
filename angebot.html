@@ -11,14 +11,17 @@
 
   <!-- Disable tap highlight on IE -->
   <meta name="msapplication-tap-highlight" content="no">
-  
+
   <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png">
   <link href="./assets/favicon.ico" rel="icon">
 
   <title>Unser Angebot</title>
   <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon/favicon.ico"/>
-
-<link href="style.css" rel="stylesheet"></head>
+  <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link href="style.css" rel="stylesheet"></head>
 
 <body class="">
 <div id="site-border-left"></div>
@@ -62,17 +65,27 @@
           </div>
           <nav class="sticky">
             <ul class="angebot_btns">
-              <li><a href="#" class="btn btn-default" id="classic_btn">Classic</a></li>
+              <li><a href="#classic" class="btn btn-default" id="classic_btn">Classic</a></li>
               <li><a href="#veggie" class="btn btn-default" id="veggie_btn">Veggie</a></li>
               <li><a href="#specials" class="btn btn-default" id="specials_btn">Specials</a></li>
               <li><a href="#sides" class="btn btn-default" id="sides_btn">Sides</a></li>
               <li><a href="#drinks" class="btn btn-default" id="drinks_btn">Drinks</a></li>
             </ul>
           </nav>
-          <div class="menu">
+          <div id="classic"  class="menu">
             <br>
-            <!-- Classic !-->
-            <h3 id="classic" style="text-align: center">Classic</h3>
+
+            <!-- SLIDER Classic -->
+            <div class="container" style="max-width:1000px">
+              <img class="slide1 animate__animated animate__flipInX" src="assets/images/angebot/classic/classic1_2.jpg" style="width:100%">
+              <img class="slide1 animate__animated animate__flipInX" src="assets/images/angebot/classic/classic3.jpg" style="width:100%">
+              <img class="slide1 animate__animated animate__flipInX" src="assets/images/angebot/classic/classic4.jpg" style="width:100%">
+              <img class="slide1 animate__animated animate__flipInX" src="assets/images/angebot/classic/classic5.jpg" style="width:100%">
+              <img class="slide1 animate__animated animate__flipInX" src="assets/images/angebot/classic/classic6.jpg" style="width:100%">
+            </div>
+
+            <!-- Classic -->
+            <h3 style="text-align: center">Classic</h3>
             <div id="classic_div">
               <article>
                 <div class="title">
@@ -123,15 +136,26 @@
                   <span>Hausausgehobenes Brot 1000g</span>
                   <span class="price">3,80€</span>
                 </div>
-                <p>
+                <p id="veggie" >
                   Leicht und locker im Geschmack,knusprig, mildgesäuert und wohlbekömmlich. Kurz: Unsere meistgefragte Brotsorte. Aus 100 % frischgemahlenem Dinkelvollkornmehl aus hauseigener Herstellung. Wasser, Sonnenblumenkerne, Leinsamen, Sesam, Meersalz und Hefe.
                 </p>
                 <br>
                 <br>
               </article>
             </div>
-            <!-- Veggie !-->
-            <h3 id="veggie" style="text-align: center">Veggie</h3>
+
+            <!-- SLIDER Veggie -->
+            <div class="container" style="max-width:1000px">
+              <img class="slide2 animate__animated animate__flipInX" src="assets/images/angebot/veggie/veggie1.jpg" style="width:100%">
+              <img class="slide2 animate__animated animate__flipInX" src="assets/images/angebot/veggie/veggie2.jpg" style="width:100%">
+              <img class="slide2 animate__animated animate__flipInX" src="assets/images/angebot/veggie/veggie3.jpg" style="width:100%">
+              <img class="slide2 animate__animated animate__flipInX" src="assets/images/angebot/veggie/veggie4.jpg" style="width:100%">
+              <img class="slide2 animate__animated animate__flipInX" src="assets/images/angebot/veggie/veggie5.jpg" style="width:100%">
+              <img class="slide2 animate__animated animate__flipInX" src="assets/images/angebot/veggie/veggie6.jpg" style="width:100%">
+            </div>
+
+            <!-- Veggie -->
+            <h3 style="text-align: center">Veggie</h3>
             <div id="veggie_div">
               <article>
                 <div class="title">
@@ -183,7 +207,7 @@
                   <span>Veggie Buddha Bowl</span>
                   <span class="price">6,80€</span>
                 </div>
-                <p>
+                <p id="specials" >
                   Gegrilltes Gemüse und gegrillte Süßkartoffeln dazu Edamame, Walnüsse, Roter Bete, frischer Thai-Basilikum, warmer Quinoa- oder Vollkornreis und frischer Wildkräutersalat dazu empfehlen wir unsere Soja Sesam Sauce.
                 </p>
                 <br>
@@ -191,8 +215,15 @@
               </article>
             </div>
 
-            <!-- Specials !-->
-            <h3 id="specials" style="text-align: center">Specials</h3>
+            <!-- SLIDER Specials -->
+            <div class="container" style="max-width:1000px">
+              <img class="slide3 animate__animated animate__flipInX" src="assets/images/angebot/specials/specials1.jpg" style="width:100%">
+              <img class="slide3 animate__animated animate__flipInX" src="assets/images/angebot/specials/specials2.jpg" style="width:100%">
+              <img class="slide3 animate__animated animate__flipInX" src="assets/images/angebot/specials/specials3.jpg" style="width:100%">
+            </div>
+
+            <!-- Specials -->
+            <h3 style="text-align: center">Specials</h3>
             <div id="specials_div">
               <article>
                 <div class="title">
@@ -244,7 +275,7 @@
                   <span>Jalapeños Cheese</span>
                   <span class="price">9,20€</span>
                 </div>
-                <p>
+                <p id="sides">
                   Kult Curryworscht, die Verführung zwischen geriebenem Mozzarella und Jalapenos. Verfeinert mit unserer Kult Curryworschtsauce (mit einer unserer 7 geheimen Currymischungen), hausgemachtes Brot, Pommes (klein) und Getränk 0,33
                 </p>
                 <br>
@@ -252,8 +283,15 @@
               </article>
             </div>
 
-            <!-- Sides !-->
-            <h3 id="sides" style="text-align: center">Sides</h3>
+            <!-- SLIDER Sides -->
+            <div class="container" style="max-width:1000px">
+              <img class="slide4 animate__animated animate__flipInX" src="assets/images/angebot/sides/sides1.jpg" style="width:100%">
+              <img class="slide4 animate__animated animate__flipInX" src="assets/images/angebot/sides/sides2.jpg" style="width:100%">
+              <img class="slide4 animate__animated animate__flipInX" src="assets/images/angebot/sides/sides3.jpg" style="width:100%">
+            </div>
+
+            <!-- Sides -->
+            <h3 style="text-align: center">Sides</h3>
             <div id="sides_div">
               <article>
                 <div class="title">
@@ -305,7 +343,7 @@
                   <span>Guacamole Fries</span>
                   <span class="price">4,10€</span>
                 </div>
-                <p>
+                <p id="drinks">
                   Unserer hausgemachten Sourcream und leckeren frischen Tomaten dazu Guacamole. Unsere Pommes aus Frislander Kartoffeln werden in 100% Rapsöl aus Mecklenburg-Vorpommern frittiert und trage so zum erhalt des Regenwalds bei.
                 </p>
                 <br>
@@ -313,8 +351,19 @@
               </article>
             </div>
 
+            <!-- SLIDER Drinks -->
+            <div class="container" style="max-width:1000px">
+              <img class="slide5 animate__animated animate__flipInX" src="assets/images/angebot/drinks/drinks1.jpg" style="width:100%">
+              <img class="slide5 animate__animated animate__flipInX" src="assets/images/angebot/drinks/drinks2.jpg" style="width:100%">
+              <img class="slide5 animate__animated animate__flipInX" src="assets/images/angebot/drinks/drinks3.jpg" style="width:100%">
+              <img class="slide5 animate__animated animate__flipInX" src="assets/images/angebot/drinks/drinks4.jpg" style="width:100%">
+              <img class="slide5 animate__animated animate__flipInX" src="assets/images/angebot/drinks/drinks5.jpg" style="width:100%">
+              <img class="slide5 animate__animated animate__flipInX" src="assets/images/angebot/drinks/drinks6.jpg" style="width:100%">
+            </div>
+
+
             <!-- Drinks !-->
-            <h3 id="drinks" style="text-align: center">Drinks</h3>
+            <h3 style="text-align: center">Drinks</h3>
             <div id="drinks_div">
               <article>
                 <div class="title">
@@ -396,6 +445,90 @@
     </div>
   </div>
 </footer>
+
+
+<!-- SLIDE Scripts -->
+<script>
+  var myIndex1 = 0;
+  carousel();
+
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("slide1");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    myIndex1++;
+    if (myIndex1 > x.length) {myIndex1 = 1}
+    x[myIndex1-1].style.display = "block";
+    setTimeout(carousel, 7000);
+  }
+
+  var myIndex2 = 0;
+  carousel2();
+
+  function carousel2() {
+    var i;
+    var x = document.getElementsByClassName("slide2");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    myIndex2++;
+    if (myIndex2 > x.length) {myIndex2 = 1}
+    x[myIndex2-1].style.display = "block";
+    setTimeout(carousel2, 7000);
+  }
+
+  var myIndex3 = 0;
+  carousel3();
+
+  function carousel3() {
+    var i;
+    var x = document.getElementsByClassName("slide3");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    myIndex3++;
+    if (myIndex3 > x.length) {myIndex3 = 1}
+    x[myIndex3-1].style.display = "block";
+    setTimeout(carousel3, 7000);
+  }
+
+  var myIndex4 = 0;
+  carousel4();
+
+  function carousel4() {
+    var i;
+    var x = document.getElementsByClassName("slide4");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    myIndex4++;
+    if (myIndex4 > x.length) {myIndex4 = 1}
+    x[myIndex4-1].style.display = "block";
+    setTimeout(carousel4, 7000);
+  }
+
+  var myIndex5 = 0;
+  carousel5();
+
+  function carousel5() {
+    var i;
+    var x = document.getElementsByClassName("slide5");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    myIndex5++;
+    if (myIndex5 > x.length) {myIndex5 = 1}
+    x[myIndex5-1].style.display = "block";
+    setTimeout(carousel5, 7000);
+  }
+
+</script>
+
+<!-- END SLIDE Scripts -->
+
+
 
 <script>
   document.addEventListener("DOMContentLoaded", function (event) {
