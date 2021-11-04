@@ -6097,6 +6097,7 @@ form .text-field:focus {
 }
 
 .site_text {
+    text-align: justify;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
@@ -6104,6 +6105,7 @@ form .text-field:focus {
 
 #locations_text {
     width: 75%;
+    text-align: justify;
 }
 /* menu */
 
@@ -6209,14 +6211,14 @@ article p {
 }
 
 .table_about {
-    width: 80%;
+    width: 90%;
     margin-right: auto;
     margin-left: auto;
     border-top: 1px solid #000;
-    border-bottom: 2px solid #000;
+    border-bottom: 1px solid #000;
 }
 
 .table_about td {
-    text-align: center;
+    text-align: justify;
     border-bottom: 1px solid black;
 }
