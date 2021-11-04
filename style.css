@@ -4676,7 +4676,7 @@ button.close {
 #site-border-bottom, #site-border-left, #site-border-right, #site-border-top {
     background: #000;
     position: fixed;
-    z-index: 1
+    z-index: 3
 }
 
 #site-border-left, #site-border-right {
