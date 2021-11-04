@@ -6208,4 +6208,15 @@ article p {
     opacity: 0;
 }
 
+.table_about {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    border-top: 1px solid #000;
+    border-bottom: 2px solid #000;
+}
 
+.table_about td {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
