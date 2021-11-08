@@ -1420,13 +1420,13 @@ a.label:focus, a.label:hover {
 }
 
 .alert-success {
-    background-color: #000;
-    border-color: #000;
-    color: #fff
+    background-color: #4BB543;
+    border-color: #4BB543;
+    color: #fff;
 }
 
 .alert-success hr {
-    border-top-color: #000
+    border-top-color: #4BB543
 }
 
 .alert-success .alert-link {
@@ -1448,8 +1448,8 @@ a.label:focus, a.label:hover {
 }
 
 .alert-danger {
-    background-color: red;
-    border-color: red;
+    background-color: #D0342C;
+    border-color: #D0342C;
     color: #fff
 }
 
@@ -2343,14 +2343,6 @@ td {
     width: auto
 }
 
-
-.kontakt {
-    width: 35%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center
-}
-
 .socials_kontakt li {
     display: inline
 }
@@ -2380,9 +2372,17 @@ td {
 }
 /* über uns end */
 
-/* booking start */
+/* booking + kontakt start */
 .booking_formular {
     width: 35%;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 3px;
+    text-align: center
+}
+
+.kontakt_formular {
+    width: 90%;
     margin: 20px auto;
     background: #fff;
     border-radius: 3px;
@@ -2397,14 +2397,17 @@ form.register {
     display: none
 }
 
-#date_danger, #human_danger, #mail_danger, #nachricht_danger, #name_danger, #ort_danger {
+#date_danger, #human_danger, #mail_danger, #nachricht_danger, #name_danger, #ort_danger, #date_danger2 {
     display: none
 }
 
-#dummy:hover {
-    font-weight: unset
+.kontakt {
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center
 }
-/* booking end */
+/* booking + kontakt end */
 
 /* unser angebot start */
 .angebot_btns {
@@ -2495,8 +2498,11 @@ article p {
     color: #fff
 }
 
-
 #body_main {
     background-color: #000
+}
+
+#dummy:hover {
+    font-weight: unset
 }
 /* footer menü startseite start */
