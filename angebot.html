@@ -436,21 +436,42 @@
 
 <!-- SLIDE Scripts -->
 <script>
+
+  // Variable myIndex1 mit Wert 0 initialisieren (let = beschränkt auf Gültigkeitsbereich des blocks <script>
   let myIndex1 = 0;
+
+  // Ruft Funktion carousel() auf
   carousel();
 
   function carousel() {
+    // Variable i wird initialisiert
     let i;
+
+    // Variable x wird initialisiert und bekommt die Elemente mit dem Klassennamen "slide1" als Werte
+    // (const = Gültigkeitsbereich auf den lokalen Block begrenzt, Wert kann nicht verändert werden)
     const x = document.getElementsByClassName("slide1");
+
+    // Versteckt alle Elemente mit dem Klassennamen "slide1"
     for (i = 0; i < x.length; i++) {
       x[i].style.display = "none";
     }
+
+    // Zählt den Index um 1 hoch
     myIndex1++;
+
+    // Wenn der Index größer als die Anzahl der Element mit "slide1" ist -> index = 0
     if (myIndex1 > x.length) {myIndex1 = 1}
+
+    // Zeigt das Element welches dem Index entspricht an
     x[myIndex1-1].style.display = "block";
+
+    // Funktion wird für 7sec (7000ms) angehalten
     setTimeout(carousel, 7000);
   }
 
+</script>
+
+<script>
   let myIndex2 = 0;
   carousel2();
 
@@ -465,7 +486,9 @@
     x[myIndex2-1].style.display = "block";
     setTimeout(carousel2, 7000);
   }
+</script>
 
+<script>
   let myIndex3 = 0;
   carousel3();
 
@@ -480,7 +503,9 @@
     x[myIndex3-1].style.display = "block";
     setTimeout(carousel3, 7000);
   }
+</script>
 
+<script>
   let myIndex4 = 0;
   carousel4();
 
@@ -495,7 +520,9 @@
     x[myIndex4-1].style.display = "block";
     setTimeout(carousel4, 7000);
   }
+</script>
 
+<script>
   let myIndex5 = 0;
   carousel5();
 
@@ -510,7 +537,6 @@
     x[myIndex5-1].style.display = "block";
     setTimeout(carousel5, 7000);
   }
-
 </script>
 
 <!-- END SLIDE Scripts -->
