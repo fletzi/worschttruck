@@ -2334,13 +2334,13 @@ img {
 
 .about_table {
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
 }
 
 td {
     padding-bottom: 10px;
     padding-right: 10px;
-    width: auto
+    width: auto;
 }
 
 .socials_kontakt li {
@@ -2377,7 +2377,6 @@ td {
     width: 35%;
     margin: 20px auto;
     background: #fff;
-    border-radius: 3px;
     text-align: center
 }
 
@@ -2385,7 +2384,6 @@ td {
     width: 90%;
     margin: 20px auto;
     background: #fff;
-    border-radius: 3px;
     text-align: center
 }
 
@@ -2397,7 +2395,7 @@ form.register {
     display: none
 }
 
-#date_danger, #human_danger, #mail_danger, #nachricht_danger, #name_danger, #ort_danger, #date_danger2 {
+#date_danger, #human_danger, #mail_danger, #nachricht_danger, #name_danger, #ort_danger, #date_danger2, #mail_danger2 {
     display: none
 }
 

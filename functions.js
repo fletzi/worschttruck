@@ -3872,6 +3872,7 @@ var app = new Vue({
 function anfragen() {
     document.getElementById("name_danger").style.display = "none"
     document.getElementById("mail_danger").style.display = "none";
+    document.getElementById("mail_danger2").style.display = "none";
     document.getElementById("ort_danger").style.display = "none";
     document.getElementById("date_danger").style.display = "none";
     document.getElementById("date_danger2").style.display = "none";
@@ -3897,6 +3898,8 @@ function anfragen() {
         document.getElementById("name_danger").style.display = "block";
     } else if(document.getElementById("email").value == "") {
         document.getElementById("mail_danger").style.display = "block";
+    } else if(!document.getElementById("email").value.includes("@")) {
+        document.getElementById("mail_danger2").style.display = "block";
     } else if(document.getElementById("ort").value == "") {
         document.getElementById("ort_danger").style.display = "block";
     } else if(document.getElementById("date").value == "") {
@@ -3914,6 +3917,7 @@ function anfragen() {
 function absenden() {
     document.getElementById("name_danger").style.display = "none"
     document.getElementById("mail_danger").style.display = "none";
+    document.getElementById("mail_danger2").style.display = "none";
     document.getElementById("nachricht_danger").style.display = "none";
     document.getElementById("human_danger").style.display = "none";
 
@@ -3921,12 +3925,13 @@ function absenden() {
         document.getElementById("name_danger").style.display = "block";
     } else if(document.getElementById("email").value == "") {
         document.getElementById("mail_danger").style.display = "block";
+    } else if(!document.getElementById("email").value.includes("@")) {
+        document.getElementById("mail_danger2").style.display = "block";
     } else if(document.getElementById("nachricht").value == "") {
         document.getElementById("nachricht_danger").style.display = "block";
     } else if(document.getElementById("human").checked == 0) {
         document.getElementById("human_danger").style.display = "block";
     } else {
-
         document.getElementById("success_absenden").style.display = "block";
     }
 };
