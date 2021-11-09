@@ -1916,12 +1916,6 @@ textarea {
     -webkit-transform: translate(-50%, -50%)
 }
 
-.site_text {
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%
-}
-
 /* locations start */
 .card {
     width: 450px;
@@ -2077,12 +2071,17 @@ img {
     margin-right: auto;
     margin-left: auto;
     border-top: 1px solid #000;
-    border-bottom: 2px solid #000
+    border-bottom: 2px solid #000;
 }
 
 .table_about td {
-    text-align: center;
-    border-bottom: 1px solid #000
+    height: 320px;
+    width: 300px;
+    border-bottom: 1px solid #000;
+}
+
+.table_about .about_table_dummy {
+    width: 70px;
 }
 
 .team-section {
@@ -2113,11 +2112,10 @@ img {
 .card_ab {
     height: 280px;
     width: 220px;
-    background: grey;
+    background: #000;
     border-radius: 0;
     transition: background .8s;
     overflow: hidden;
-    background: #000;
     display: flex
 }
 
@@ -2380,8 +2378,13 @@ td {
     text-align: center
 }
 
+.site_text {
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%
+}
+
 .kontakt_formular {
-    width: 90%;
     margin: 20px auto;
     background: #fff;
     text-align: center
@@ -2401,6 +2404,12 @@ form.register {
 
 .kontakt {
     width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center
+}
+
+.booking {
     margin-left: auto;
     margin-right: auto;
     text-align: center
