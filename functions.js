@@ -3894,19 +3894,19 @@ function anfragen() {
     var m2 = parseInt(str[1]);
     var d2 = parseInt(str[2]);
 
-    if(document.getElementById("name").value == "") {
+    if (document.getElementById("name").value == "") {
         document.getElementById("name_danger").style.display = "block";
-    } else if(document.getElementById("email").value == "") {
+    } else if (document.getElementById("email").value == "") {
         document.getElementById("mail_danger").style.display = "block";
-    } else if(!document.getElementById("email").value.includes("@")) {
+    } else if (!document.getElementById("email").value.includes("@")) {
         document.getElementById("mail_danger2").style.display = "block";
-    } else if(document.getElementById("ort").value == "") {
+    } else if (document.getElementById("ort").value == "") {
         document.getElementById("ort_danger").style.display = "block";
-    } else if(document.getElementById("date").value == "") {
+    } else if (document.getElementById("date").value == "") {
         document.getElementById("date_danger").style.display = "block";
-    } else if(y2<y || m2<m || d2<=d) {
+    } else if (y2 < y || m2 < m || d2 <= d) {
         document.getElementById("date_danger2").style.display = "block";
-    } else if(document.getElementById("human").checked == 0) {
+    } else if (document.getElementById("human").checked == 0) {
         document.getElementById("human_danger").style.display = "block";
     } else {
         document.getElementById("success").style.display = "block";
@@ -3921,15 +3921,15 @@ function absenden() {
     document.getElementById("nachricht_danger").style.display = "none";
     document.getElementById("human_danger").style.display = "none";
 
-    if(document.getElementById("name").value == "") {
+    if (document.getElementById("name").value == "") {
         document.getElementById("name_danger").style.display = "block";
-    } else if(document.getElementById("email").value == "") {
+    } else if (document.getElementById("email").value == "") {
         document.getElementById("mail_danger").style.display = "block";
-    } else if(!document.getElementById("email").value.includes("@")) {
+    } else if (!document.getElementById("email").value.includes("@")) {
         document.getElementById("mail_danger2").style.display = "block";
-    } else if(document.getElementById("nachricht").value == "") {
+    } else if (document.getElementById("nachricht").value == "") {
         document.getElementById("nachricht_danger").style.display = "block";
-    } else if(document.getElementById("human").checked == 0) {
+    } else if (document.getElementById("human").checked == 0) {
         document.getElementById("human_danger").style.display = "block";
     } else {
         document.getElementById("success_absenden").style.display = "block";

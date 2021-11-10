@@ -2024,6 +2024,7 @@ textarea {
 #locations_text {
     width: 75%
 }
+
 /* locations end */
 
 /* footer menü start */
@@ -2052,6 +2053,7 @@ textarea {
 .footer-menu {
     margin-top: -40px
 }
+
 /* footer menü end */
 
 ul {
@@ -2368,6 +2370,7 @@ td {
 #spotify:hover {
     background-image: url(assets/images/icons/spotify_c.png)
 }
+
 /* über uns end */
 
 /* booking + kontakt start */
@@ -2414,6 +2417,7 @@ form.register {
     margin-right: auto;
     text-align: center
 }
+
 /* booking + kontakt end */
 
 /* unser angebot start */
@@ -2497,6 +2501,7 @@ article p {
 .btn_top {
     text-align: center
 }
+
 /* unser angebot end */
 
 /* footer menü startseite start */
@@ -2512,4 +2517,5 @@ article p {
 #dummy:hover {
     font-weight: unset
 }
+
 /* footer menü startseite start */
